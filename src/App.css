@@ -1,6 +1,15 @@
 html, body, #root{
   height: 100%;
 }
+nav{
+  grid-area: header;
+}
+main{
+  grid-area: main;
+}
+aside{
+  grid-area: sidebar;
+}
 .App {
   display: grid;
   grid-template-columns: repeat(4, 25%);
@@ -12,6 +21,6 @@ html, body, #root{
   height: 100%;
 }
 .App-logo {
-  height: 15vmin;
+  height: 7vmin;
   pointer-events: none;
 }
