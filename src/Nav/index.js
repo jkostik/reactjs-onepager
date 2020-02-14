@@ -1,13 +1,13 @@
 import React from "react";
-import './style.css';
+import './nav-style.css';
 
 function Nav(props) {
     return (
         <nav>
-            <header className="main-nav">
+            <div className="nav-logo">
                 <img src={props.logo} className="App-logo" alt="logo" />
-            </header>
-            <ul>
+            </div>
+            <ul className="nav-main">
                 <li>About me</li>
                 <li>Work Experince</li>
                 <li>Gradutes</li>

@@ -1,0 +1,13 @@
+nav{
+    background-color: #e1f7e1;
+    padding: 5px;
+}
+nav.nav-main{
+    margin: 0;
+    padding: 0;
+}
+
+nav.nav-main > li{
+    display: inline-block;
+    padding: 5px 10px;
+}
