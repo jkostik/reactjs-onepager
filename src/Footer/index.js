@@ -23,9 +23,9 @@ function Footer() {
     return (
         <footer>
             <ul>
-                <li onClick={showImpressumHandler}>Impressum</li>
-                <li onClick={showDatenschutzHandler}>Datenschutz</li>
-                <li onClick={showContactHandler}>Kontakt</li>
+                <li onClick={showImpressumHandler}>Imprint</li>
+                <li onClick={showDatenschutzHandler}>Privacy Policy</li>
+                <li onClick={showContactHandler}>Contact</li>
             </ul>
         </footer>
     )
