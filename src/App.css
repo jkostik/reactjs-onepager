@@ -24,3 +24,48 @@ aside{
   height: 5vmin;
   pointer-events: none;
 }
+
+/* Navigation */
+nav{
+  display: grid;
+  grid-template-columns: 100px 1fr;
+  grid-template-areas: "logo main-navigation";
+  grid-template-rows: 1fr;
+  background-color: #e1f7e1;
+}
+.nav-main > li{
+  display: inline-block;
+  padding: 5px 10px;
+}
+
+/* LOGO */
+.nav-logo{
+  grid-area: logo;
+}
+.nav-logo > img{
+  display: block;
+  margin: 0 auto;
+}
+.App-logo {
+  -webkit-animation: rotating 2s linear infinite;
+  -moz-animation: rotating 2s linear infinite;
+  -ms-animation: rotating 2s linear infinite;
+  -o-animation: rotating 2s linear infinite;
+  animation: rotating 2s linear infinite;
+}
+
+.nav-main{
+  grid-area: main-navigation;
+  padding: 0;
+  margin: 15px 0;
+  list-style-type: none;
+}
+.nav-main > li{
+  display: inline;
+  padding: 12px 10px;
+  border-bottom: 2px solid transparent;
+}
+.nav-main > li:hover{
+  cursor: pointer;
+  border-color: crimson;
+}

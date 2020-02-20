@@ -5,7 +5,7 @@ nav{
     grid-template-rows: 1fr;
     background-color: #e1f7e1;
 }
-nav.nav-main > li{
+.nav-main > li{
     display: inline-block;
     padding: 5px 10px;
 }
