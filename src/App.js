@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 import React from 'react';
 import { Switch, Route, Link, BrowserRouter, Redirect } from "react-router-dom";
 import logo from './logo.svg';
@@ -43,7 +42,7 @@ class App extends React.Component {
                 <Footer />
             </Route>
             <Route path="/about">
-              <Main layout="sub-page"/>
+              <Main layout="sub-page" />
               <Footer />
             </Route>
             <Redirect from="/" to="/home" />
@@ -54,25 +53,4 @@ class App extends React.Component {
   }
 }
 
-=======
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
-import Nav from "./Nav";
-import Main from "./Main";
-import Aside from './Aside';
-import Footer from "./Footer";
-
-function App() {
-  return (
-    <div className="App">
-        <Nav logo={logo}/>
-        <Main />
-        <Aside />
-      <Footer />
-    </div>
-  );
-}
-
->>>>>>> c3c822ddc762cbd33d12449789c57df8bf661c7f
 export default App;
